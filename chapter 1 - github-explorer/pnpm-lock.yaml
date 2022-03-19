@@ -6,6 +6,7 @@ specifiers:
   '@babel/preset-env': ^7.16.10
   '@babel/preset-react': ^7.16.7
   babel-loader: ^8.2.3
+  cross-env: ^7.0.3
   html-webpack-plugin: ^5.5.0
   react: ^17.0.2
   react-dom: ^17.0.2
@@ -23,6 +24,7 @@ devDependencies:
   '@babel/preset-env': 7.16.10_@babel+core@7.16.10
   '@babel/preset-react': 7.16.7_@babel+core@7.16.10
   babel-loader: 8.2.3_1130dfb7074519573d1279ca7ccdf0a7
+  cross-env: 7.0.3
   html-webpack-plugin: 5.5.0_webpack@5.69.1
   webpack: 5.69.1_webpack-cli@4.9.2
   webpack-cli: 4.9.2_56d34dfb5427e6df45a27ae34f9e2cba
@@ -1995,6 +1997,14 @@ packages:
 
   /core-util-is/1.0.3:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
+    dev: true
+
+  /cross-env/7.0.3:
+    resolution: {integrity: sha512-+/HKd6EgcQCJGh2PSjZuUitQBQynKor4wrFbRg4DtAgS1aWO+gU52xpH7M9ScGgXSYmAVS9bIJ8EzuaGw0oNAw==}
+    engines: {node: '>=10.14', npm: '>=6', yarn: '>=1'}
+    hasBin: true
+    dependencies:
+      cross-spawn: 7.0.3
     dev: true
 
   /cross-spawn/7.0.3:
